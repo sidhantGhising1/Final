@@ -19,3 +19,15 @@ Qn. 5 -> we run container on cloud service providers like aws using docker. We l
          comes to the aws and outbound traffics are the ones that goes away from aws. These are the rules like from where i can 
          access the deployed container of that ec2 virtual machine and similarly have types like HTTP and HTTPS and we can 
          also make it custom for testing in only our closed environments.
+
+Qn. 15 -> For end-to-end deployment lifecycle we have development , testing, staging and production environments. Throughout this
+         processes we do practical coding development of the application using respective tech stacks then run testing using
+         automation as well as manual testing by writing scripts. Then we having staging environment its almost similar
+         to deployment environment only it has less and limited features to test the application as thers is cost effective
+         breakdown and save capital for the company. While production environment is full fledged app delivered to the users.
+         Some company also have like deployments environment and then production environment depending on the company policy
+         requirements and breackdowns. Possible failure points are mainly in testing and staging environments where the code 
+         and application functionality undergoes rigorous testing and compliants. Failure can also be on production stage.
+         To prevent this we do like versioning ov the application. We route user traffic to certain versions of the application
+         and until the application is fully stable we dont fully traverse the actual route to the versioning application.
+         
