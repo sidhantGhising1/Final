@@ -1,8 +1,8 @@
 //  For merge conflict scenario
 
 function cyber(a, b) {
-  let sum = a + b;
-  return sum;
+  let subtract = a - b;
+  return subtract;
 }
 
-console.log(cyber(2, 2));
+console.log(cyber(5, 2));
